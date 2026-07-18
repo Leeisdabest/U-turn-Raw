@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: nins-replay-host
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
